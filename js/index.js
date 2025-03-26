@@ -23,3 +23,7 @@ var swiper = new Swiper(".serviceSlider", {
       },
     },
   });
+
+  function goToContact(){
+    window.location.href = "#footer";
+  }
