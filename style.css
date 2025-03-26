@@ -164,6 +164,7 @@ header .navbar a:hover{
     text-align: center;
     margin-top: 3rem;
     color:var(--blue-black);
+    font-size: 2rem;
 }
 
 #services .container p{
@@ -229,3 +230,125 @@ header .navbar a:hover{
     color: var(--lightOrange);
     padding: 1rem 0;
 } 
+
+#about h2, #about h3{
+    text-align: center;
+    color: var(--blue-black);
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+#about p{
+    margin: 0 4rem;
+    text-align: center;
+}
+
+#footer .container{
+    background-color: var(--blue-black);
+    margin-top: 3rem;
+    padding: 2rem;
+    min-height:12rem;
+    display:flex;
+}
+
+#footer .container .logoContainer,
+ #footer .container .pagesContainer, 
+ #footer .container .addressContainer{
+    background-color: var(--blue-black);
+    margin-top: 2rem;
+}
+
+#footer .container .logoContainer{
+    margin-left: 10rem;
+    border-right: .1rem solid var(--white);
+}
+
+#footer .container .logoContainer img{
+    background: none;
+    width: 7rem;
+    height: 7rem;
+    margin-right: 4rem;
+}
+
+#footer .container .logoContainer p{
+    background-color: var(--blue-black);
+    color:var(--white);
+    /* margin-left:.5rem; */
+}
+
+#footer .container .pagesContainer{
+    margin-left: 4rem;
+    background-color: var(--blue-black);
+    border-right: .1rem solid var(--white);
+}
+
+#footer .container .pagesContainer p{
+    background-color: var(--blue-black);
+    color:var(--white);
+    font-size:large;
+}
+
+#footer .container .pagesContainer #links{
+    background: var(--blue-black);
+    margin-right:4rem;
+    align-items: center;
+}
+
+#footer .container .pagesContainer #links i{
+    color: var(--lightOrange);
+    background: var(--blue-black);
+    margin-right: .5rem;
+}
+
+#footer .container .pagesContainer #links i:hover{
+    padding-right: .2rem;
+}
+
+#footer .container .pagesContainer #links a:hover{
+    padding-left:.2rem;
+}
+
+#footer .container .pagesContainer #links a{
+    background: var(--blue-black);
+    color: var(--white);
+    text-decoration: none;
+}
+
+#footer .container .addressContainer{
+    margin-left: 5rem;
+    align-items: center;
+    text-align: center;
+}
+
+#footer .container .addressContainer h2{
+    background-color: var(--blue-black);
+    color: white;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+#footer .container .addressContainer a{
+    background-color: var(--blue-black);
+    text-decoration: none;
+}
+
+#footer .container .addressContainer a i{
+    background-color: var(--blue-black);
+    color: white;
+    margin-right:.3rem;
+    font-style: 'Poppins';
+}
+
+#footer .container .addressContainer a i:hover{
+    color:var(--lightOrange);
+}
+
+#footer .container .addressContainer .mediaIcons{
+    background-color: var(--blue-black);
+    color:var(--white);
+}
+
+#footer .container .addressContainer .mediaIcons p{
+    background-color: var(--blue-black);
+    color: var(--white);
+}
