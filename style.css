@@ -353,6 +353,26 @@ header .navbar a:hover{
     color: var(--white);
 }
 
+#footer .copyright p {
+    position: relative; 
+    text-align: center;
+    background-color: var(--blue-black);
+    color: var(--white);
+    padding-bottom:1rem;
+    padding-top:1rem;
+}
+
+#footer .copyright p::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 40rem; 
+    height: 1px; 
+    background-color: #bbb8b8;
+    transform: translateX(-50%); 
+}
+
 #terms{
     display:none;
 }
