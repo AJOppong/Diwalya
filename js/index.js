@@ -22,8 +22,46 @@ var swiper = new Swiper(".serviceSlider", {
         slidesPerView: 3,
       },
     },
-  });
+});
 
-  function goToContact(){
-    window.location.href = "#footer";
+function goToContact(){
+  window.location.href = "#footer";
+}
+
+function openTerms(event) {
+  event.preventDefault(); // Prevents the default jump to #terms
+  
+  let termsContent = document.querySelector('#terms');
+
+  if (termsContent.style.display === 'none' || termsContent.style.display === '') {
+    termsContent.style.display = 'block'; 
+    document.querySelector("#termsModal").style.display = "flex";
+  } else {
+    termsContent.style.display = 'none';
   }
+}
+
+function closeTerms() {
+  let termsContent = document.querySelector('#terms');
+
+  termsContent.style.display = 'none';
+}
+
+function openPrivacy(event){
+  event.preventDefault(); 
+  
+  let privacyContent = document.querySelector('#privacy');
+
+  if (privacyContent.style.display === 'none' || privacyContent.style.display === '') {
+    privacyContent.style.display = 'block'; 
+    document.querySelector("#privacyModal").style.display = "flex";
+  } else {
+    privacyContent.style.display = 'none';
+  }
+}
+
+function closePrivacy() {
+  let privacyContent = document.querySelector('#privacy');
+
+  privacyContent.style.display = 'none';
+}
